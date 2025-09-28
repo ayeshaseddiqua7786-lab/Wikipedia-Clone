@@ -1,0 +1,231 @@
+.bigbox{
+    height: 100vh;
+    width: 100vw;
+    border: 3px solid black;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+   
+}
+
+.leftsidebox span{
+    font-weight: bold;
+    word-spacing: 10px;
+   
+
+}
+.leftsidebox{
+    margin-top: 2%;
+     margin-left: 1%;  
+    border-radius: 8px;
+    height: 90vh;
+    width: 20%;  
+     /* border: 2px solid gray;    */
+}
+.content{
+    height: 90%;
+    width: 75%;
+    /* border: 2px solid black;  */
+    overflow: scroll;
+
+}
+.rightsidebox{
+    height: 600px;
+    width: 20%;
+    /* border: 2px solid black;  */
+    margin-top: 3.5%;
+    overflow-y: scroll;
+    
+    
+
+}
+
+.content h1:hover{
+    text-decoration: underline;
+    color: blue;
+}
+hr{
+    color: lightgray;
+}
+.content span{
+    word-spacing: 3px;
+}
+.content span:hover{
+    text-decoration: underline;
+    color: rgb(49, 176, 14);
+}
+ .content span2{
+    word-spacing: 8px;
+    margin-left: 400px;
+
+}
+.content span2:hover{
+    color: blue;
+
+}
+
+    
+
+h2:hover{
+    
+    cursor: pointer;
+    color: blue;
+}
+ h2{
+    text-decoration: underline;
+}
+
+
+.pic_one{
+    height: 300px;
+    width: 300px;
+    background-image: url(https://images.unsplash.com/photo-1616902509409-a624c4f31a56?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVkJTIwcGFycm90fGVufDB8fDB8fHww);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    /* border-radius: 30px; */
+    margin-top: 2%;
+}
+.pic_2{
+    height: 300px;
+    width: 400px;
+    background-image: url(https://i.pinimg.com/736x/d0/cf/48/d0cf48c3a26e7ed067d9ff2a3897047e.jpg);
+    background-repeat: no-repeat;
+   background-size: contain;
+   float: right;
+
+}
+.rightsidebox span{
+    word-spacing: 20px;
+     padding-left: 30px; 
+}
+.choice hr{
+    color: lightgray;
+}
+.choice b:hover{
+    color: blue;
+}
+.pic_zero{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Archaeopteryx_lithographica_%28Berlin_specimen%29.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    float: right;
+    border-radius: 50%;
+}
+.pic_3{
+    height: 300px;
+    width: 400px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Southern_cassowary_feet.jpg/500px-Southern_cassowary_feet.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+
+}
+.leftsidebox span:hover{
+    text-shadow: 10px 15px 5px;
+    text-decoration: underline ;
+    color: deepskyblue;
+}
+.pic_4{
+    height: 200px;
+    width: 300px;
+    background-image: url(https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/66e6cfb933e32d001db3fafd.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: right;
+}
+/* .pic_4c1{ */
+    /* height: 200px;
+    width: 200px;
+    background-image: url(https://images.saymedia-content.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTc0NjQ2MDY4MDU4MDcyODQ3/worlds-most-beautiful-birds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+/* } */
+.pic_5{
+    height: 300px;
+    width: 400px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVgcVby-4w_h8ARX1QaeoW_MhbRWbPkGk-Gw&s);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+}
+.content2{
+    height: 85%;
+    width: 25%;
+    /* border: 2px solid black;  */
+    overflow-y: scroll; 
+    display: flex;
+     flex-direction: column;
+}
+.contchild1{
+    height: 400px;
+    width: 500px;
+    /* text-align: center; */
+    /* padding-left: 60px; */
+    text-decoration: underline;
+    
+}
+.contimg{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Anchiornis_feathers.jpg/500px-Anchiornis_feathers.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 55%;
+    width: 50%;
+    margin-top: 2%;
+    /* margin-right:1% ; */
+
+}
+.contimg2{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/House_sparrow04.jpg/500px-House_sparrow04.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60%;
+    width: 60%;
+    /* margin-top: 2%; */
+
+}.contchild3{
+    height: 400px;
+    width: 500px;
+    /* text-align: center; */
+    /* padding-left: 60px; */
+    text-decoration: underline;
+    
+}
+.contimg3{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 55%;
+    width: 50%;
+    margin-top: 2%;
+    /* margin-right:1% ; */
+}
+.gal1{
+    display: flex;
+    height: 60%;
+     background-color: burlywood; 
+}
+.galc1{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Birdmorphology.svg/680px-Birdmorphology.svg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    width: 80%;
+   
+}
+.pic_6{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdhV5mi55fuPBTBPeJWo_9rmQ2hcuJTmZMlg&s);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 80%;
+    float: right;
+}
+
+
+
+
+
+    
